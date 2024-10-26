@@ -23,16 +23,16 @@ if anoDeNascimento % 4 == 0:
 else:
     ehBissexto = "não é bissexto"
 
-if sexo in "F f":
+if sexo == "F" or sexo == "f":
     print(f"""Olá, {nome}! é uma mulher de {idade} anos.
 Sua idade eh {idadeTipo}
 O ano de nascimento {ehBissexto}""")
-elif sexo in "M m":
+elif sexo == "M" or sexo == "m":
     print(f"""Olá, {nome}! é um homem de {idade} anos
 Sua idade eh {idadeTipo}
 O ano de nascimento {ehBissexto}""")
     
-elif sexo in "O o":
+elif sexo == "O" or sexo == "o":
     print(f"""Olá, {nome}! não se identifica com M ou F e tem {idade} anos
 Sua idade eh {idadeTipo}
 O ano de nascimento {ehBissexto}""")
