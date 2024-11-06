@@ -18,3 +18,5 @@ while numero != 0:
         print(f"O número {numero} não é primo")
     
     numero = int(input("Digite um número: "))
+
+print("Acabou o programa")
