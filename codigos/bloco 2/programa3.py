@@ -1,5 +1,4 @@
 import libMatematica
-
 import libComandoTerminal
 
 def showMenu():
@@ -22,17 +21,17 @@ while True:
         
     else:
         if opcao not in [1, 2, 3]:
-            print("Opção inválida.\n")
+            print("Opção inválida.\nPressione ENTER para escolher uma opção válida")
         else:
             numero = int(input("Digite um número: "))
 
     match opcao:
         case 1:
-            print(f"O número {numero} é {libMatematica.primo(numero)}")
+            print(f"O número {numero} é {"primo" if libMatematica.primo(numero) else "não é primo"}\nPressione ENTER para usar denovo")
         case 2:
-            print(f"{numero}! = {libMatematica.fatorial(numero)}")
+            print(f"{numero}! = {libMatematica.fatorial(numero)}\nPressione ENTER para usar denovo")
         case 3:
-            print(f"{numero} ** 2 = {libMatematica.quadrado(numero)}")
+            print(f"{numero} ** 2 = {libMatematica.quadrado(numero)}\nPressione ENTER para usar denovo")
 
     input()
     libComandoTerminal.limpaTela()
