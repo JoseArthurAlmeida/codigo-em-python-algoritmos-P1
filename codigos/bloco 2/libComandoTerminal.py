@@ -1,4 +1,4 @@
 import os
 
 def limpaTela():
-    os.system("clear")
+    os.system("cls")
