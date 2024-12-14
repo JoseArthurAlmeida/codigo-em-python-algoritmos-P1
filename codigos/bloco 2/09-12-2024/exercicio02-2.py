@@ -1,3 +1,4 @@
+# Algoritmo que usa a biblioetca statistics para calcular a média, a mediana, e a moda de uma lista de números
 import statistics
 
 listaNumeros = []

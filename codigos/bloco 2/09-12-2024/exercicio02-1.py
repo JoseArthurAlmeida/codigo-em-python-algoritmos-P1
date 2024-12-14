@@ -1,3 +1,4 @@
+# Algoritmo que calcula a média, a mediana, e a moda de uma lista de números
 listaNumeros = []
 quantidades = []
 
@@ -34,8 +35,8 @@ mediana = calcularMediana(listaNumeros)
 moda = listaNumeros[posicaoDesejada]
 
 print(f"lista normal: {listaNumeros}")
-print(f"qtd: {quantidades}")
+# print(f"qtd: {quantidades}")
 print(f"Lista ordenada: {sorted(listaNumeros)}")
-print(f"Media = {media}")
+print(f"Média = {media}")
 print(f"Mediana = {mediana}")
 print(f"Moda = {moda}")
