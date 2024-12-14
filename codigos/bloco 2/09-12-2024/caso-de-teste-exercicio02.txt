@@ -1,0 +1,18 @@
+CASO DE TESTE
+
+entrada
+2
+2
+3
+36
+36
+36
+5
+8
+4
+9
+
+saída
+Media: 14.1
+Mediana: 6.5
+Moda: 36
