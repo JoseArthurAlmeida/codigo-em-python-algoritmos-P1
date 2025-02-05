@@ -12,6 +12,5 @@ def fibonacciRecursivo(n):
         return n
     return fibonacci(n - 1) + fibonacci(n - 2) 
 
-print(fibonacci(45)) # 5
-# print(fibonacci(6)) # 8
-# print(fibonacci(2)) # 1
+print(fibonacciRecursivo(6)) # 5
+print(fibonacci(6)) # 5
