@@ -1,16 +1,16 @@
 def fibonacci(quantidade):
     fibonacci = [0, 1]
 
-    for i in range(2, quantidade):
+    for i in range(2, quantidade + 1):
         soma = fibonacci[i - 1] + fibonacci[i - 2]
         fibonacci.append(soma)
     
-    return fibonacci[quantidade - 1]
+    return fibonacci[quantidade]
 
 def fibonacciRecursivo(n):
     if n <= 1:
         return n
-    return fibonacci(n - 1) + fibonacci(n - 2) 
-
+    return fibonacciRecursivo(n - 1) + fibonacciRecursivo(n - 2) 
+# 0 ,1, 1, 2, 3, 5, 8, 13
 print(fibonacciRecursivo(6)) # 5
 print(fibonacci(6)) # 5
