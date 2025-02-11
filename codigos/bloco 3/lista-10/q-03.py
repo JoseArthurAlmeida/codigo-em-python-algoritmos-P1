@@ -2,7 +2,6 @@
 entrada = input("Digite uma string: ")
 caractereIN = input("Digite um caractere: ")
 
-
 def contarCaractere(string, caractere):
     if len(string) == 0:
         return 0

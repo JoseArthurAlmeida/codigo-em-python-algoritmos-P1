@@ -10,4 +10,4 @@ def inverterRec(palavra):
     
     return inverterRec(palavra[1:]) + palavra[0]
 
-# print(inverterRec("Amor")) # romA
+print(inverterRec("Amor")) # romA

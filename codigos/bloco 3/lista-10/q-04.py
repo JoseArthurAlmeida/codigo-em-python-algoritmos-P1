@@ -1,5 +1,5 @@
 # 4. Crie uma função recursiva para calcular o valor mínimo e máximo em uma lista de números.
-def valorMinMax(lista, min = None, max = None):
+def valorMinMax(lista: list, min = None, max = None):
     if len(lista) == 0:
         return [min, max]
     

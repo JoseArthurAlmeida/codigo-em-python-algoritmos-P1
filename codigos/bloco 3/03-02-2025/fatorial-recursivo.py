@@ -10,8 +10,10 @@ def fatorial(numero):
 # print(fatorial(5)) # 120
 
 def fatorialRecursivo(numero):
-    if numero == 1:
+    if numero == 0:
         return 1
     return numero * fatorialRecursivo(numero - 1)
 
-# print(fatorialRecursivo(5)) # 120
+print(fatorialRecursivo(0))
+print(fatorialRecursivo(1))
+print(fatorialRecursivo(5))

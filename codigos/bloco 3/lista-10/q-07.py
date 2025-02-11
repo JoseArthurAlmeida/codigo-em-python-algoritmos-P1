@@ -3,7 +3,7 @@ decimal = int(input("Digite um número decimal: "))
 
 def decimalParaBinario(numero):
     if numero == 0:
-        return ""
+        return "0"
     
     return decimalParaBinario(numero // 2) + str(numero % 2)
 

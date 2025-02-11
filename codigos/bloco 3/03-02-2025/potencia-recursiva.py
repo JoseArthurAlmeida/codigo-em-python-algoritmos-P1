@@ -8,6 +8,6 @@ def potenciaRecursiva(x, y):
         return 1
     return x * potenciaRecursiva(x, y -1) 
 
-# print(potenciaRecursiva(2, 0))
-# print(potenciaRecursiva(2, 1))
-# print(potenciaRecursiva(2, 2))
+print(potenciaRecursiva(2, 0))
+print(potenciaRecursiva(2, 1))
+print(potenciaRecursiva(2, 2))
