@@ -12,5 +12,4 @@ def fibonacciRecursivo(n):
         return n
     return fibonacciRecursivo(n - 1) + fibonacciRecursivo(n - 2) 
 # 0 ,1, 1, 2, 3, 5, 8, 13
-print(fibonacciRecursivo(6)) # 5
-print(fibonacci(6)) # 5
+print(fibonacciRecursivo(3))
