@@ -4,10 +4,10 @@ def potencia(x, y):
 # print(potencia(2, 3))
 
 def potenciaRecursiva(x, y):
-    if y == 0:
-        return 1
+    if y == 1:
+        return x
     return x * potenciaRecursiva(x, y -1) 
 
-print(potenciaRecursiva(2, 0))
 print(potenciaRecursiva(2, 1))
 print(potenciaRecursiva(2, 2))
+print(potenciaRecursiva(2, 3))
