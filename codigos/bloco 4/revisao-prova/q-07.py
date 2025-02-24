@@ -5,9 +5,6 @@ def substitueDiagonalPrincipal(matriz):
     for i in range(len(matriz)):
        matriz[i][i] = 1
 
-def simetrica(matriz_1, matriz_2):
-    return matriz_1 == matriz_2
-
 # Solicita ao usuário a quantidade de linhas e colunas para as matrizes
 print("\033[1;44mOPERAÇÃO COM MATRIZES - substitua todos os elementos da diagonal principal por 1.\033[m")
 
