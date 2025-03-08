@@ -1,5 +1,7 @@
 # Código em Python - Algoritmos P1
 
+[![Status do Repositório](https://img.shields.io/badge/Status-Finalizado-green)](#)
+
 ## Objetivo do repositório
 
 Guardar os códigos dos exercícios das aulas de algoritmos.
